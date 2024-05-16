@@ -64,11 +64,11 @@ const Userform = ({ isUpdated, setIsEdit, setIsUpdated, data, isEdit }) => {
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <Typography variant="h5">
-            Lecturer Register form
+            Lecturer Register Form
           </Typography>
           <Link to="/entryreg">
               <Button variant="contained" className="add-button">
-                Add   Lecturer
+                Add Lecturer
               </Button>
             </Link>
         </Grid>

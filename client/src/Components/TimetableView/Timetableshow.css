@@ -1,0 +1,71 @@
+.time1 {
+    position: absolute;
+    background-image: url('../../assets/pictures/Student bg.png');
+    margin-bottom: 3px;
+    width: 100vw; /* 100% of viewport width */
+    background-size: cover;
+    background-position: center;
+      height: 87vh;
+      overflow: hidden;
+   
+  }
+  
+  .timetable-container {
+      width: 80%;
+      margin: auto;
+      font-family: Inter;
+      
+    }
+  
+    
+    .timetable {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    
+    .timetable th,
+    .timetable td {
+      border: 1px solid #dddddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    .timetable th {
+      background-color: #f2f2f2;
+    }
+    
+    .timetable tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    
+    .timetable tr:hover {
+      background-color: #ddd;
+    }
+    h1{
+      text-align: center;
+    }
+    .buttn23{
+     
+        position:fixed;
+      
+        border: none;
+      
+        width: 150px;
+        height: 50px;
+        padding: 0px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Inter;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-left: 60px;
+        margin-bottom: 100px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        top: 25%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+      
+    }

@@ -1,0 +1,9 @@
+.container2{
+    position: absolute;
+    background-image: url('../../assets/pictures/Artboard 1.png');
+    margin-bottom: 3px;
+    width: 100vw; /* 100% of viewport width */
+    background-size: cover;
+    background-position: center;
+      height: 87vh;
+}

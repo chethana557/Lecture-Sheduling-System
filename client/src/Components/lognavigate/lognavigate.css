@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-image: url("");
+    background-position: center;
+    align-items: center;
+    height: 35vh;
+    margin: 20px;
+    max-width: 1200px; 
+    text-align: center;
+   
+  }
+  
+  .left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right {
+    flex: 1;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 3rem;
+    color: #333;
+  }
+  
+ 
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .users-button {
+    margin-left: 40px;
+    width: 250px;
+    height: 120px;
+    padding: 0px;
+    background-color:  #007EA7;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .users-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* .link {
+    text-decoration: none;
+  } */
+  
+  .centered {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  
+  .Home{
+    position: absolute;
+    background-image: url('../../assets/pictures/Back1.png');
+    margin-bottom: 3px;
+    width: 100vw; /* 100% of viewport width */
+    background-size: cover;
+    background-position: center;
+      height: 87vh;
+   
+  }
+  
+  .form-container {
+      width: 50%;
+  }
+  

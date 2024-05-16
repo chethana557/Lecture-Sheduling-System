@@ -1,0 +1,184 @@
+.Login_BG {
+  position: static;
+  background-image: url('../../assets/pictures/Login bg.png');
+  margin-bottom: 3px;
+  width: 100vw; /* 100% of viewport width */
+  height: auto;
+  background-size: cover;
+  background-position: center;
+    
+ 
+}
+
+/*Signup.css*/
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-up-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: linear-gradient(#51829B, #007EA7);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*login.css*/
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.left2 img {
+  width: 100%;
+  height: 80px; /* Set image width to 100% of its container */
+  max-width: 80px; /* Set maximum width for responsiveness */
+  position: absolute; /* Position the image */
+  top: 35%; /* Position from the top */
+  left: 50%; /* Position from the left */
+  transform: translate(-50%, -50%); /* Center the image */
+}
+.right2 img {
+  width: 100%;
+  height: 90px; /* Set image width to 100% of its container */
+  max-width: 80px; /* Set maximum width for responsiveness */
+  position: absolute; /* Position the image */
+  top: 37%; /* Position from the top */
+  left: 50%; /* Position from the left */
+  transform: translate(-50%, -50%); /* Center the image */
+}
+.logolmp2 {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+  align-items: center;
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #b2b2b2;
+  background: linear-gradient(#51829B, #007EA7);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.112);
+  
+}
+h2{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: bold;
+  color: #F2FEFF;
+}
+
+h3{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  color: #F2FEFF;
+  
+}
+h4{
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 100;
+  color: #F2FEFF;
+  
+}
+.form-divider {
+  border: none; /* Remove default border */
+  height: 0.8px; /* Set the height of the line */
+  background-color: #f0f0f0; /* Set the color of the line */
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.buttonL {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 16px;
+    /* border-radius: 30px; */
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #0481aa;
+  }
+  
+  .button1:hover {
+    background-color: #01a1e0;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #00baa7;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+  
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  
+  .button4:hover {background-color: #e7e7e7;}
+  
+  .button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+  label{
+    color: white;
+    font-size:20px;
+    text-align: left;
+  }
+  

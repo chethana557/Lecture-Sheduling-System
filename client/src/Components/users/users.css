@@ -1,0 +1,48 @@
+/* users.css */
+
+/* Table Styling */
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table-head {
+  background-color: #f0f0f0;
+}
+
+.table-cell {
+  padding: 10px;
+}
+
+/* Button Styling */
+.update-btn,
+.delete-btn {
+  color: #fff;
+}
+
+.update-btn {
+  background-color: #2196f3;
+}
+
+.delete-btn {
+  background-color: #f44336;
+}
+
+.update-btn:hover,
+.delete-btn:hover {
+  opacity: 0.8;
+}
+
+.background-users {
+  background-image: url('path_to_your_background_image.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensure background covers the entire viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

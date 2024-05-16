@@ -1,0 +1,27 @@
+.Courses-background{
+    background-image: url('../../assets/pictures/Admin bg.png');
+    display: flex;
+}
+
+.btn {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .card {
+    flex: 1;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: inherit;
+  }

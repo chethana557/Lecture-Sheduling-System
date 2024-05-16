@@ -1,0 +1,44 @@
+/* .custom-navbar { */
+    /* max-width: 600px; Adjust the value to decrease width */
+    /* margin: 0 auto;   Center the Navbar horizontally */
+    /* background-color: #003249; */
+  /* } */
+
+  
+#navcontent {
+  min-height: 10vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-weight: bold;
+font-size: 20px;
+background-color: #007EA7;
+padding: 10px 40px;
+font-family: Inter;
+
+}
+
+#navcontent a {
+display: inline-block;
+margin-right: 30px;
+color: aliceblue;
+text-decoration: none;
+}
+
+
+.MenuLink {
+display: flex;
+list-style: none;
+margin-left: auto; 
+}
+
+#navcontent a p{
+  display: flex;
+  color: white;
+  
+}
+.logo{
+  max-width: 100%;
+  height: auto;
+  max-height: 150px;
+}

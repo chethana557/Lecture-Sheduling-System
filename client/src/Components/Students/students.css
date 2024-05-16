@@ -1,0 +1,26 @@
+.student-form-container {
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('your-background-image-url.jpg'); /* Replace 'your-background-image-url.jpg' with the URL or path to your background image */
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+/* Styles for labels */
+label {
+  color: #000; /* Set label color to black */
+  font-weight: bold; /* Optionally set font weight to bold */
+  margin-bottom: 5px; /* Add some space below each label */
+  display: block; /* Make labels block-level elements */
+}
+
+/* Existing styles for the form */
+/* Add your existing styles here */

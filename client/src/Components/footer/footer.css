@@ -1,0 +1,12 @@
+footer{
+    position:fixed;
+    text-align:center;
+    width:100%;
+    bottom:1rem;
+    margin-bottom:-20px;
+    background-color:#007EA7;
+    color:white;
+    height:4vh;
+   
+    
+}

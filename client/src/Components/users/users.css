@@ -1,6 +1,81 @@
-/* users.css */
+/* Container for the form */
+.user-form-container {
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Ensure this content stays on top */
+  margin: 20px; /* Add margin for spacing around the form */
+}
 
-/* Table Styling */
+/* Background image styling */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('path_to_your_background_image.jpg'); /* Replace with the correct image URL */
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  filter: blur(2px); /* Optional: adds a slight blur to the background image */
+  opacity: 0.6; /* Optional: makes the background image slightly transparent */
+}
+
+/* Styles for labels */
+label {
+  color: #333; /* Set label color to a dark gray for better readability */
+  font-weight: bold; /* Font weight set to bold */
+  margin-bottom: 5px; /* Space below each label */
+  display: block; /* Make labels block-level elements */
+}
+
+/* Additional form element styling */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Padding inside inputs */
+  margin-bottom: 15px; /* Space below inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+button {
+  padding: 10px 20px; /* Padding for buttons */
+  background-color: #1976d2; /* Primary button color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+  background-color: #1565c0; /* Darker shade on hover */
+}
+
+.add-button {
+  margin-top: 10px;
+  background-color: #388e3c; /* Green button color */
+}
+
+.add-button:hover {
+  background-color: #2e7d32; /* Darker green on hover */
+}
+
+.submit-button {
+  width: 100%; /* Full width for submit button */
+  background-color: #1976d2; /* Primary button color */
+}
+
+.submit-button:hover {
+  background-color: #1565c0; /* Darker shade on hover */
+}
+
+/* Styles for table */
 .table-container {
   margin-top: 20px;
 }
@@ -17,7 +92,7 @@
   padding: 10px;
 }
 
-/* Button Styling */
+/* Button styling for table actions */
 .update-btn,
 .delete-btn {
   color: #fff;
@@ -36,13 +111,13 @@
   opacity: 0.8;
 }
 
-.background-users {
-  background-image: url('path_to_your_background_image.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh; /* Ensure background covers the entire viewport */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/* Additional styles for responsiveness */
+@media (max-width: 600px) {
+  .user-form-container {
+    padding: 10px; /* Reduced padding on smaller screens */
+  }
+
+  button {
+    padding: 8px 16px; /* Reduced padding for buttons */
+  }
 }
